@@ -57,7 +57,7 @@
 .section2 h3{
     
     text-transform: uppercase;
-    color: white;
+    color: rgb(241, 233, 233);
     
 
 }
@@ -82,15 +82,27 @@ color: white;
 }
 
 
-
-.encabezado {
-    background-color: rgb(255, 253, 253);
+.bg-propio{
+    background-color: rgb(207, 129, 40);
+    position: fixed;
+    flex-direction: column;
 }
+
+
+nav-item a {
+    color: white!important;
+}
+
+.nav-item a:hover{
+    color: var(white)!important;
+}
+
+
 
 .navbar{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 20px);
+    grid-template-rows: repeat(3, 30px);
 }
 
 @media all and (max-width: 600px){
@@ -168,7 +180,7 @@ nav ul li a {
     font-size: 1.2rem;
     color: rgb(19, 18, 18);
     font-family: "letra";
-    border: 1px solid white;
+    border: 1px solid rgb(7, 6, 6);
     gap: 15px;
     text-decoration: underline;
     background-image: linear-gradient(red, yellow);
