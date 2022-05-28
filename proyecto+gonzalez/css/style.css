@@ -14,7 +14,7 @@
 
 
 .container_grid{
-    background-image: linear-gradient(white,black);
+    background-image: linear-gradient(orange,black);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 10px;
@@ -83,7 +83,7 @@ color: white;
 
 
 .bg-propio{
-    background-color: rgb(207, 129, 40);
+    background-image: linear-gradient(black, orange);
     position: fixed;
     flex-direction: column;
 }
